@@ -1,7 +1,7 @@
 # Four Digit Display (TM1637)
 makecode Four Digit Display (TM1637) Package for microbit  
 
-Four Digit Display is a Module with four 7-segment LED, it can show number. It has TM1650 chip inside, control with a I2C bus.  
+LED Digit Display Module with 1-6 (normal four) 7-segment LED, it can show number. It has TM1637 chip inside, control with a 2-wire interface.  
 
 Author: shaoziyang  
 Date:   2018.Mar  

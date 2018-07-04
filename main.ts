@@ -141,10 +141,10 @@ namespace TM1637 {
                 num = -num
             }
             else
-                this.showbit((num / 1000) % 10)
+                this.showbit(Math.idiv(num, 1000) % 10)
             this.showbit(num % 10, 3)
-            this.showbit((num / 10) % 10, 2)
-            this.showbit((num / 100) % 10, 1)
+            this.showbit(Math.idiv(num, 10) % 10, 2)
+            this.showbit(Math.idiv(num, 100) % 10, 1)
         }
 
         /**
